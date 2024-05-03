@@ -15,31 +15,41 @@ header {
 
 #logo {
     margin: 20px;
+    width: 150px;
 }
 
 nav {
     background-image: url("../images/banner.jpg");
     margin: auto;
-    height: 300px;
-    padding-top: 5em;
+    height: 350px;
+    padding-top: 4em;
     background-size: contain;
-    line-height: 3em;
+    line-height: 2em;
+}
 
+.testoo {
+    margin-right: 20vw;
+    margin-left: 20vw;
+    padding-bottom: 1em;
 }
 
 #titleone {
-    font-size: large;
+    text-align: center;
     color: #25a2c3;
+    font-size: 3em;
+    margin: 5vw;
+
 }
 
 .title1 {
     color: #25a2c3;
-    margin-top: 5em;
+    margin-top: 2em;
     padding-bottom: 1em;
+    font-size: 1.3em;
 }
 
 .testo1 {
-    margin-bottom: 5em;
+    margin-bottom: 7em;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -50,7 +60,7 @@ nav {
     color: white;
     width: 120px;
     height: 30px;
-    
+    margin: 1.5em;
 }
 
 #img1 {
@@ -59,7 +69,8 @@ nav {
 
 .img {
     width: 450px;
-    ;
+    padding-top: 1em;
+    margin-top: 1em;
 }
 
 #orange {
@@ -70,7 +81,6 @@ nav {
 }
 
 .foot {
-
     background-color: #25a2c3;
     color: white;
     padding-bottom: 5em;
@@ -83,4 +93,24 @@ nav {
 
 #copyright {
     padding-top: 4em;
+}
+
+.testo2 {
+    margin-left: 15%;
+    margin-right: 15%;
+    font-style: italic;
+
+}
+
+#persona {
+    padding-top: 2.2em;
+}
+
+#tit1 {
+    padding-bottom: 1.5em;
+    font-size: 2em;
+}
+
+.article1 {
+    border: 1px solid;
 }
