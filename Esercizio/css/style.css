@@ -1,0 +1,86 @@
+/* Your styles here */
+body {
+    text-align: center;
+    width: 450px;
+    height: 500px;
+    color: #393d41;
+    margin: 0;
+    
+}
+
+header {
+    background-color: black;
+    
+}
+
+#logo {
+    margin: 20px;
+}
+
+nav {
+    background-image: url("../images/banner.jpg");
+    margin: auto;
+    height: 300px;
+    padding-top: 5em;
+    background-size: contain;
+    line-height: 3em;
+
+}
+
+#titleone {
+    font-size: large;
+    color: #25a2c3;
+}
+
+.title1 {
+    color: #25a2c3;
+    margin-top: 5em;
+    padding-bottom: 1em;
+}
+
+.testo1 {
+    margin-bottom: 5em;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#partiamo {
+    background-color: #e22d0e;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 30px;
+    
+}
+
+#img1 {
+    border-radius: 50%;
+}
+
+.img {
+    width: 450px;
+    ;
+}
+
+#orange {
+    background-color: #e22d0e;
+    color: white;
+    height: 250px;
+    padding-top: 5em;
+}
+
+.foot {
+
+    background-color: #25a2c3;
+    color: white;
+    padding-bottom: 5em;
+}
+
+#cont {
+    padding: 2em;
+    font-size: 30px;
+}
+
+#copyright {
+    padding-top: 4em;
+}
