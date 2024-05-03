@@ -8,6 +8,15 @@ body {
     
 }
 
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
 header {
     background-color: black;
     
@@ -49,7 +58,7 @@ nav {
 }
 
 .testo1 {
-    margin-bottom: 7em;
+    margin-bottom: 5em;
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -71,6 +80,7 @@ nav {
     width: 450px;
     padding-top: 1em;
     margin-top: 1em;
+    margin-bottom: 0;
 }
 
 #orange {
@@ -84,6 +94,8 @@ nav {
     background-color: #25a2c3;
     color: white;
     padding-bottom: 5em;
+    margin-top: 2em;
+    line-height: 2em;
 }
 
 #cont {
@@ -112,5 +124,17 @@ nav {
 }
 
 .article1 {
-    border: 1px solid;
+    margin-top: 0;
+    border-bottom: 1px solid #dee1e3;
+    border-right: 1px solid #dee1e3;
+    border-left: 1px solid #dee1e3;
 }
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor;
+    fill: currentColor;
+  }
